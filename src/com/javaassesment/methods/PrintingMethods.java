@@ -1,4 +1,4 @@
-package assesment2;
+package com.javaassesment.methods;
 import java.io.IOException;
 
 
@@ -6,10 +6,10 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class printing {
+public class PrintingMethods {
 	double adm;
 	String name;
-	Functioncalling student=new Functioncalling();
+	SettersAndGetters student=new SettersAndGetters();
 	gradeAssignment graydo= new gradeAssignment();
 
 

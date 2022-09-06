@@ -1,10 +1,10 @@
-package assesment2;
+package com.javaassesment.methods;
 
 public class gradeAssignment {
 	String physics1Grade;
 	String Grade;
 	double pointer;
-	Functioncalling student=new Functioncalling();
+	SettersAndGetters student=new SettersAndGetters();
 	
  public String grade(double marks) {
 	 if(marks>90d) {

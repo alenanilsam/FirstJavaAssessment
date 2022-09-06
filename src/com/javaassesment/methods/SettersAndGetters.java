@@ -1,7 +1,7 @@
-package assesment2;
+package com.javaassesment.methods;
 import java.util.Scanner;
 
-public class Functioncalling {
+public class SettersAndGetters {
 	String name;
 	double admissionNumber;
 	double physicsMark;
@@ -14,10 +14,10 @@ public class Functioncalling {
 	String mathGrade;
 	
 	Scanner scanner=new Scanner(System.in);
-	public Functioncalling() {
+	public SettersAndGetters() {
 		
 	}
-	public Functioncalling(double admissionNumber,double physicsMark,double chemistryMark, double mathematicsMark,String name,double marksum,double percentage,String physics1Grade,String chem1Grade,String math1Grade) {
+	public SettersAndGetters(double admissionNumber,double physicsMark,double chemistryMark, double mathematicsMark,String name,double marksum,double percentage,String physics1Grade,String chem1Grade,String math1Grade) {
 		this.admissionNumber=admissionNumber;
         this.name=name;
 		this.physicsMark=physicsMark;
